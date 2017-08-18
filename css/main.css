@@ -1,0 +1,77 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+h1{
+  margin:  100px;
+  font-family: cursive;
+  text-align: center;
+}
+body{
+
+
+}
+#contenedor{
+  /*border: 6px solid white;*/
+  width: 604px;
+  height: 340px;
+  margin:  0 auto;
+  background-image: url(../img/laboratoria.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 200px;
+  left: 379px;
+}
+
+#divplomo{
+	border-bottom: 340px solid #393837;
+	border-left: 180px solid transparent;
+	border-right: 0px solid transparent;
+	height: 0;
+	width: 250px;
+  position: absolute;
+  right: 0px;
+}
+.texto{
+  position: absolute;
+  z-index: 100;
+  top: 0px;
+  left: 350px;
+  text-align: center;
+  color: white;
+}
+#nombre{
+  font-family: fantasy;
+  font-size: 20px;
+  top: 60px;
+}
+#front{
+  font-family: cursive;
+  top: 120px;
+  color: #FFAA00;
+}
+#datos{
+  font-family: serif;
+  top: 200px;
+  text-align: left;
+}
+#codigo{
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/codigo.png);
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: 1000;
+  bottom: 0px;
+  right: 0px;
+}
+#logo{
+  width: 200px;
+  height: 68px;
+  background-image: url(../img/logo.png);
+  background-size: 100% 100%;
+  z-index: 1000;
+  position: absolute;
+  left: 100px;
+}
